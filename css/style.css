@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.166667px;
+  line-height: 1.7em;
+  color: #7e8690;
+}
+
+p {
+  color: #7e8690;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #111;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h1, .h1 {
+  font-size: 45px;
+  text-transform: none;
+}
+
+h2, .h2 {
+  font-size: 42px;
+  line-height: 52px;
+}
+
+h3, .h3 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h5, .h5 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all .35s ease;
+}
+#main-wrapper.oxyy-login-register {
+  background: #fff;
+}
+ .oxyy-login-register .badge-primary {
+  background-color: #20c997 !important;
+}
+.oxyy-login-register .hero-wrap .hero-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.min-vh-100 {
+  min-height: 100vh!important;
+}
+h3.title{
+  font-size: 35px;
+  font-weight: 500;
+}
+h3.title span {
+  color: #1B9A85;
+  font-weight: 600;
+}
+#loginForm .form-group input {
+ 
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #b2b2b2;
+  padding: 10px 15px;
+  color: #111111;
+  opacity: 1;
+  background: transparent !important;
+}
+.form-group {
+  position: relative;
+}
+#loginForm .form-group i.field-icon {
+  position: absolute;
+  z-index: 1;
+  right: 24px;
+  padding: 0 5px;
+  color: #c5c5c5;
+  font-size: 14px;
+  top: 50px;
+}
+#loginForm .policy p {
+  font-size:14px;
+}
+#loginForm .policy p span {
+  color: #007bff;
+}
+#loginForm .border-radius {
+  border-radius: 7px;
+}
+.btn_bgcolor{
+  color:#fff;
+  background:#1B9A85;
+}
+span.bg_round {
+  background: #727272;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50px;
+  font-size: 13px;
+  color: #fff;
+}
+hr {
+  border-top: 1px solid rgb(0 0 0 / 19%);
+  border-style: dashed;
+}
+.social_login a {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 7px;
+  line-height: 43px;
+  border: 1px solid #b2b2b2;
+}
+.social_login a i , .social_login p span{
+  color:#1B9A85;
+}
+.hero-content {
+  box-shadow: 0 10px 60px 0 #e6e6e6;
+  border-radius: 0 12px 12px 0;
+}
+.shape1 img {
+  width: 240px;
+}
+.shape1{
+  position: absolute;
+  left: -110px;
+  top: -168px;
+  transform: rotate(98deg);
+}
+.shape2 img {
+  width: 240px;
+}
+.shape2 {
+  position: absolute;
+  left: -84px;
+  bottom: 0;
+  height: 100px;
+  overflow: hidden;
+}
+.shape3 img {
+  width: 260px;
+}
+.shape3{
+  position: absolute;
+  left: -196px;
+  top: 43%;
+}
+.error {
+  font-size: 15px;
+  margin: 0;
+  color: red;
+}
+.valid {
+  border: 2px solid #0ff;
+}
+/* .input-error { border:1px solid red;} */
+.leftbanner img {
+  width: 290px;
+}
+.leftbanner h2 {
+  font-size: 32px;
+}
+.leftbanner h2 span {
+  color: #1B9A85;
+  font-weight: 500;
+}
+.btn_bgcolor:hover {
+  border: 1px solid #1B9A85;
+  background: transparent;
+  color:#1B9A85;
+}
+.social_login a:hover {
+  background-color: #DB4437;
+  border: 1px solid #DB4437;
+}
+.social_login a:hover i {
+  color: #fff;
+}
+.social_login a:hover:nth-child(2)  {
+  background-color: #1874eb;
+  border: 1px solid #1874eb;
+}
+
+
+/*-------- Preloader --------*/
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999 !important;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.preloader .lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-top: -40px;
+  margin-left: -40px;
+  top: 50%;
+  left: 50%;
+}
+.preloader .lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #1B9A85;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.preloader .lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.preloader .lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.preloader .lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.preloader .lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+.preloader.preloader-dark {
+  background-color: #000;
+}
+
+.preloader.preloader-dark .lds-ellipsis div {
+  background-color: #fff;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+
+
+@media only screen and (max-width: 568px) and (min-width: 320px) {
+  .leftbanner img {
+    width: 210px;
+}
+.hero-content {
+  box-shadow: none;
+  padding: 80px 0;
+}
+}
